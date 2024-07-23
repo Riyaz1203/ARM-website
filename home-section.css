@@ -1,0 +1,28 @@
+.home-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-title{
+    font-size: 60px;
+    margin-top: 150px;
+    text-align: center;
+    width: 45%;
+    font-family: 'meditative';
+    font-weight: lighter;
+}
+.overlay-blur{
+    position: absolute;
+    top:-300px;
+    z-index: 95;
+    opacity: 70%;
+}
+.home-page-main-image{
+    width: 60%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 99;
+}

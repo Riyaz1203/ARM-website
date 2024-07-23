@@ -12,9 +12,11 @@ header {
     justify-content: space-between;
     padding: 0 50px;
 	position: fixed;
+    top: 0;
 }
 header .logo {
     font-size:18px;
+    text-align: center;
     text-transform: uppercase;
 }
 header nav ul {
