@@ -7,7 +7,8 @@ html,
 body {
 	height: 100%;
 	width: 100%;
-    background-color: #FBF6E2;
+    background-color: black;
+    color: white;
     font-family: "Poppins", sans-serif;
 }
 
@@ -17,3 +18,4 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
