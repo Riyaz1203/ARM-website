@@ -55,14 +55,16 @@
     .home-title h1{
         font-size: 42px;
         line-height: 35px;
-        margin-top: 100px;
+        margin-top: -100px;
     }
     .dotie-home {
         height: 100%;
         width: 100%;
+        margin-top: -300px;
     }
     .video-containier-section{
         height: 200px;
         padding: 0px 20px;
+        margin: 0px;
     }
 }
