@@ -10,6 +10,7 @@ body {
     background-color: black;
     color: white;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -19,3 +20,17 @@ body {
     font-style: normal;
 }
 
+.top-title{
+    font-size: 50px;
+    display: flex;
+    letter-spacing: 5px;
+    margin: 50px 0px;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .top-title{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+}

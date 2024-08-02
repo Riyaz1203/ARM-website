@@ -1,28 +1,68 @@
 .home-container{
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;justify-content: center;
 }
 
 .home-title{
-    font-size: 60px;
-    margin-top: 150px;
-    text-align: center;
-    width: 45%;
-    font-family: 'meditative';
-    font-weight: lighter;
-}
-.overlay-blur{
-    position: absolute;
-    top:-300px;
-    z-index: 95;
-    opacity: 70%;
-}
-.home-page-main-image{
-    width: 60%;
+    width: 50%;
     height: 100%;
-    opacity: 0.3;
-    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-title h1 {
+    font-size: 90px;
+    line-height: 76px;
+    width: 80%;
+}
+.home-title h1 span{
+    color: #FF8225;
+}
+
+.dotie-home{
+    height: 100%;
+    width: 50%;
+}
+
+.video-containier-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-containier-section video{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-title{
+        width: 100%;
+    }
+    .home-title h1{
+        font-size: 42px;
+        line-height: 35px;
+        margin-top: 100px;
+    }
+    .dotie-home {
+        height: 100%;
+        width: 100%;
+    }
+    .video-containier-section{
+        height: 200px;
+        padding: 0px 20px;
+    }
 }

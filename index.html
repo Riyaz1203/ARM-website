@@ -14,10 +14,16 @@
     />
 
 
+    <script src="https://kit.fontawesome.com/6e48bfbc5b.js" crossorigin="anonymous"></script>
+
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar-header.css" />
     <link rel="stylesheet" href="home-section.css" />
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="about-page.css" />
+    <link rel="stylesheet" href="contact.css">
   </head>
   <body>
     <!-- NAVBAR STARTS -->
@@ -27,16 +33,16 @@
       <nav>
         <ul>
           <li>
-            <a href="" class="active">Home</a>
+            <a href="#home" class="active">Home</a>
           </li>
           <li>
-            <a href="">Products</a>
+            <a href="#product">Products</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about-us">About</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -49,24 +55,262 @@
     <!-- NAVBAR ENDS -->
 
     <!-- HOME SECTION STARTS -->
+     <section id="home"></section>
     <div class="home-container">
-      <h1 class="home-title">Beyond transportation, a seamless experience</h1>
-      <img class="overlay-blur" src="assets/round-orange-blur.svg" alt="" />
-      <img
-        class="home-page-main-image"
-        src="assets/home-page-image.webp"
-        alt=""
-      />
+      <div class="home-title">
+        <h1>
+          Beyond <span>transportation</span>, a seamless <span>experience</span>
+        </h1>
+      </div>
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+      <dotlottie-player
+        src="https://lottie.host/2cfacde8-19b2-44d2-8fc8-967535c4ae06/mE5g1rAQVl.json"
+        background="transparent"
+        class="dotie-home"
+        speed="1"
+        direction="1"
+        playMode="normal"
+        loop
+        autoplay
+      ></dotlottie-player>
     </div>
     <!-- HOME SECTION END -->
 
     <!-- VIDEO SECTION STARTS-->
-
+    <div class="video-containier-section">
+      <video
+        src="assets/home page video.mp4"
+        class="home-page-video"
+        autoplay
+        muted
+        loop
+      ></video>
+    </div>
     <!-- VIDEO SECTION ENDS-->
 
     <!-- PRODUCTS PAGE STARTS -->
-
+     <section id="product">
+    <div class="product-container">
+      <h1 class="top-title">Our Products</h1>
+      <div class="products-images-container">
+        <div class="prd-image-container">
+          <img src="assets/product 1.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 2.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 3.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 4.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 5.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 6.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 7.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 8.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 9.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 10.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 11.jpg" alt="" />
+        </div>
+        <div class="prd-image-container">
+          <img src="assets/product 12.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
     <!-- PRODUCTS PAGE STARTS -->
+
+    <!-- ABOUT US SECTION START -->
+     <section id="about-us">
+    <div class="about-section-container">
+      <h1 class="top-title">About Us</h1>
+
+      <div class="about-company">
+        <img src="assets/logo-about-page.jpg" alt="" />
+
+        <!-- <h2>ARM I&N ENTERPRISES</h2> -->
+        <p>
+          International logistics involves the planning, execution, and
+          management of the movement and storage of goods across national
+          borders.
+        </p>
+        <p>
+          The choice of mode depends on the specific requirements of the
+          shipment, trade lanes, transit times, budget constraints, and
+          environmental considerations
+        </p>
+        <p>
+          Often, international logistics may involve a combination of modes to
+          optimize cost, speed, and efficiency while meeting the needs of
+          the supply chain.
+        </p>
+        <div class="founder-section">
+          <div class="founder-container">
+            <div class="founder-img">
+              <img src="assets/Founder Image.jpg" alt="" />
+            </div>
+            <div class="founder-message">
+              <h2>Mr.S.MANIKANDAN</h2>
+              <h3>MANAGING DIRECTOR</h3>
+              <p>
+                A Managing Director, or Management Director, is responsible
+                for upholding successful company operations by implementing
+                business strategies and fostering business relationships. Their
+                duties include maintaining frequent communications with company
+                Executives and Board Members, reviewing operational data and
+                financial statements to track the progress of business
+                initiatives and hiring Department Directors to guide company
+                employees in areas like accounting, sales, marketing or HR.
+              </p>
+              <p>
+                As the leader of the management team, the MD motivates and
+                oversees the executive staff, managers, and wider employee base.
+                Common tasks include workforce planning, talent recruitment and
+                development, delegating responsibilities, performance
+                evaluations, and maintaining workplace.
+              </p>
+            </div>
+          </div>
+          <div class="founder-container revverse">
+            <div class="founder-img">
+              <img src="assets/Chief Executive image.jpg" alt="" />
+            </div>
+            <div class="founder-message">
+              <h2>Mrs. A.BINDHU</h2>
+              <h3>CHIEF EXECUTIVE OFFICER</h3>
+              <p>
+                CEO is chief executive office. He is a top-ranking officer in an
+                organization. The CEO position can be found at the top of the
+                organizational chart of a company. They are responsible for
+                setting the strategic goals and objectives of the organization and
+                ensuring that the necessary resources are in place to achieve
+                them.
+              </p>
+              <p>
+                A CEO is responsible for providing overall direction and
+                leadership for a company, making major corporate decisions,
+                serving as the public face of the company, managing the company's
+                finances, overseeing the work of other execution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ABOUT US SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section id="contact">
+      <div class="contact-main">
+        <div class="top-title">Contact Us</div>
+        <div class="container-3">
+          <main class="row">
+            <div class="col left info">
+              <div class="contactTitle">
+                <h2 data-aos="fade-right" data-aos-duration="650">Get In Touch</h2>
+              </div>
+              <div class="contactInfo">
+                <div class="iconGroup">
+                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="details">
+                    <span id="phone-no" data-aos="fade-right" data-aos-duration="650"><a style="text-decoration: none;color: white;" href="tel:+919384810443">+91 93848 10443</a>/<a style="text-decoration: none;color: white;" href="tel:+919684810442">+91 96848 10442</a> 
+                    </span>
+                  </div>
+                </div>
+                <a href="mailto:allrounder.012002@gmail.com">
+                <div class="iconGroup">
+                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="details">
+                    <span style="text-transform: lowercase;" data-aos="fade-right" data-aos-duration="650">allrounder.012002@gmail.com</span>
+                  </div>
+                </div>
+              </a>
+                <div class="iconGroup">
+                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="details">
+                    <span data-aos="fade-right" data-aos-duration="650"> 3/104, Karungalipatti, Nadupatti, Bargur, Nadupatti, Krishnagiri, Tamil Nadu 635203.</span>
+                  </div>
+                </div> 
+                <div data-aos="fade-top" data-aos-duration="650" class="location">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3896.2456750894207!2d78.43951167506742!3d12.433344987834754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDI2JzAwLjAiTiA3OMKwMjYnMzEuNSJF!5e0!3m2!1sen!2sin!4v1722627639509!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                </div> 
+              <div class="socialMedia">
+                <a  data-aos="fade-right" data-aos-duration="650" href="https://www.instagram.com/arm_enterprises001?igsh=MWNkaDVlc2V4anp5bw==" style="color: white;text-decoration: none;" ><i class="fab fa-instagram"></i></a>
+                <a  data-aos="fade-right" data-aos-duration="650" href="https://youtube.com/@armnienterprises?si=Ez3P6GqR87WwpY2k" style="color: white;text-decoration: none;" ><i class="fab fa-youtube"></i></a>
+              </div>          
+            </div>
+            </div>
+            <div class="col right form">  
+              <form class="messageForm" action="https://formsubmit.co/allrounder.012002@gmail.com" method="POST" >
+                
+                <div class="inputGroup halfWidth">
+                  <input  data-aos="fade-left" data-aos-duration="650" type="text" id="name" name="Name" required="required">
+                  <label>Your Name <span style="color: red;">*</span></label>
+                </div>
+      
+                <div class="inputGroup halfWidth">
+                  <input data-aos="fade-left" data-aos-duration="650" type="email" id="email" name="Email Id" required="required">
+                  <label >Email <span style="color: red;">*</span></label>
+                </div>
+      
+                <div class="inputGroup fullWidth">
+                  <input data-aos="fade-left" data-aos-duration="650" type="text" id="subject" name="Subject" required="required">
+                  <label >Phone Number <span style="color: red;">*</span></label>
+                </div>
+                <label >What Can We Do For You ? <span style="color: red;">*</span></label>
+                <div class="inputGroup fullWidth">
+                  <textarea data-aos="fade-left" data-aos-duration="650" id="messagebox" name="Their Sayings" required="required"></textarea>
+                </div>
+    
+                <div class="inputGroup fullWidth">
+                  <button type="submit">Send Message</button>
+                </div>
+      
+              </form>
+            </div>          
+          </main>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <div class="footer">
+      <P>&#169; copyright 2024 | ARM NI ENTERPRISES</P><br>
+      <a class="crayont" href="https://www.crayont.com/"><p>Designed and Developed by Crayont</p></a>
+    </div>
+
+
+
 
 
 

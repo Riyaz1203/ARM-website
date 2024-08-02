@@ -1,0 +1,29 @@
+.products-images-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px 100px;
+}
+.prd-image-container{
+    width: auto;
+    height: 300px;
+}
+.prd-image-container img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:600px) {
+    .products-images-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .prd-image-container {
+        width: auto;
+        height: 200px;
+    }
+}

@@ -1,0 +1,126 @@
+.about-company{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 200px;
+}
+.about-company img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.about-company h2{
+    text-align: left;
+    letter-spacing: 10px;
+}
+.about-company p{
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+
+.founder-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: start;
+    gap: 30px;
+}
+.revverse{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+.founder-img{
+    width: 50%;
+    height: 100%;
+}
+.founder-img img{
+    width:250px;
+    height: 100%;
+    object-fit: cover;
+}
+.founder-message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+
+}
+.founder-message h2{
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: 300;
+
+}
+.founder-message h3{
+    font-size: 18px;
+    color: #FF8225;
+    font-weight: 300;
+
+}
+.founder-message p{
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: 300;
+
+}
+.founder-section{
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width:600px) {
+    .about-company{
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .about-company img{
+        height: 200px;
+    }
+    .about-company p {
+        font-size: 14px;
+        margin: 10px 5px;
+        font-weight: 300;
+    }
+    .founder-section {
+        margin-top: 50px;
+    }
+    .founder-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+    .founder-img img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .founder-message {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .founder-message h3 {
+        font-size: 11px;
+        color: #FF8225;
+        font-weight: 300;
+    }
+    .founder-message h2 {
+        font-size: 15px;
+        letter-spacing: normal;
+        font-weight: 300;
+    }
+    .founder-message p {
+        font-size: 12px;
+        letter-spacing: normal;
+        font-weight: 300;
+    }
+}
