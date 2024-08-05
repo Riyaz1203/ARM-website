@@ -13,8 +13,9 @@
       rel="stylesheet"
     />
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://kit.fontawesome.com/6e48bfbc5b.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- CSS -->
@@ -31,27 +32,19 @@
       <div class="logo">ARM ENTERPRISES</div>
       <input type="checkbox" id="nav_check" hidden />
       <nav>
-        <ul>
-          <li>
-            <a href="#home" class="active">Home</a>
-          </li>
-          <li>
-            <a href="#product">Products</a>
-          </li>
-          <li>
-            <a href="#about-us">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+          <ul>
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#product" class="nav-link">Products</a></li>
+              <li><a href="#about-us" class="nav-link">About</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
       </nav>
       <label for="nav_check" class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
       </label>
-    </header>
+  </header>
     <!-- NAVBAR ENDS -->
 
     <!-- HOME SECTION STARTS -->
@@ -225,42 +218,42 @@
           <main class="row">
             <div class="col left info">
               <div class="contactTitle">
-                <h2 data-aos="fade-right" data-aos-duration="650">Get In Touch</h2>
+                <h2>Get In Touch</h2>
               </div>
               <div class="contactInfo">
                 <div class="iconGroup">
-                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                  <div class="icon">
                     <i class="fa-solid fa-phone"></i>
                   </div>
                   <div class="details">
-                    <span id="phone-no" data-aos="fade-right" data-aos-duration="650"><a style="text-decoration: none;color: white;" href="tel:+919384810443">+91 93848 10443</a>/<a style="text-decoration: none;color: white;" href="tel:+919684810442">+91 96848 10442</a> 
+                    <span id="phone-no"><a style="text-decoration: none;color: white;" href="tel:+919384810443">+91 93848 10443</a>/<a style="text-decoration: none;color: white;" href="tel:+919684810442">+91 96848 10442</a> 
                     </span>
                   </div>
                 </div>
                 <a href="mailto:allrounder.012002@gmail.com">
                 <div class="iconGroup">
-                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                  <div class="icon">
                     <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div class="details">
-                    <span style="text-transform: lowercase;" data-aos="fade-right" data-aos-duration="650">allrounder.012002@gmail.com</span>
+                    <span style="text-transform: lowercase;">allrounder.012002@gmail.com</span>
                   </div>
                 </div>
               </a>
                 <div class="iconGroup">
-                  <div  data-aos="fade-right" data-aos-duration="650" class="icon">
+                  <div class="icon">
                     <i class="fa-solid fa-location-dot"></i>
                   </div>
                   <div class="details">
-                    <span data-aos="fade-right" data-aos-duration="650"> 3/104, Karungalipatti, Nadupatti, Bargur, Nadupatti, Krishnagiri, Tamil Nadu 635203.</span>
+                    <span> 3/104, Karungalipatti, Nadupatti, Bargur, Nadupatti, Krishnagiri, Tamil Nadu 635203.</span>
                   </div>
                 </div> 
-                <div data-aos="fade-top" data-aos-duration="650" class="location">
+                <div class="location">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3896.2456750894207!2d78.43951167506742!3d12.433344987834754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDI2JzAwLjAiTiA3OMKwMjYnMzEuNSJF!5e0!3m2!1sen!2sin!4v1722627639509!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
                 </div> 
               <div class="socialMedia">
-                <a  data-aos="fade-right" data-aos-duration="650" href="https://www.instagram.com/arm_enterprises001?igsh=MWNkaDVlc2V4anp5bw==" style="color: white;text-decoration: none;" ><i class="fab fa-instagram"></i></a>
-                <a  data-aos="fade-right" data-aos-duration="650" href="https://youtube.com/@armnienterprises?si=Ez3P6GqR87WwpY2k" style="color: white;text-decoration: none;" ><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/arm_enterprises001?igsh=MWNkaDVlc2V4anp5bw==" style="color: white;text-decoration: none;" ><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@armnienterprises?si=Ez3P6GqR87WwpY2k" style="color: white;text-decoration: none;" ><i class="fab fa-youtube"></i></a>
               </div>          
             </div>
             </div>
@@ -268,22 +261,22 @@
               <form class="messageForm" action="https://formsubmit.co/allrounder.012002@gmail.com" method="POST" >
                 
                 <div class="inputGroup halfWidth">
-                  <input  data-aos="fade-left" data-aos-duration="650" type="text" id="name" name="Name" required="required">
+                  <input  type="text" id="name" name="Name" required="required">
                   <label>Your Name <span style="color: red;">*</span></label>
                 </div>
       
                 <div class="inputGroup halfWidth">
-                  <input data-aos="fade-left" data-aos-duration="650" type="email" id="email" name="Email Id" required="required">
+                  <input type="email" id="email" name="Email Id" required="required">
                   <label >Email <span style="color: red;">*</span></label>
                 </div>
       
                 <div class="inputGroup fullWidth">
-                  <input data-aos="fade-left" data-aos-duration="650" type="text" id="subject" name="Subject" required="required">
+                  <input type="text" id="subject" name="Subject" required="required">
                   <label >Phone Number <span style="color: red;">*</span></label>
                 </div>
                 <label >What Can We Do For You ? <span style="color: red;">*</span></label>
                 <div class="inputGroup fullWidth">
-                  <textarea data-aos="fade-left" data-aos-duration="650" id="messagebox" name="Their Sayings" required="required"></textarea>
+                  <textarea id="messagebox" name="Their Sayings" required="required"></textarea>
                 </div>
     
                 <div class="inputGroup fullWidth">
@@ -327,6 +320,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- CUSTOM JS -->
     <script src="animation.js"></script>
